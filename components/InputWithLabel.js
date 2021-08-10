@@ -1,5 +1,10 @@
 import React from "react";
-import { View, StyleSheet, Text, TextInput } from "react-native";
+import {
+  View,
+  StyleSheet,
+  Text,
+  TextInput,
+} from "react-native";
 
 export default function InputWithLabel(props) {
   const {
@@ -12,7 +17,13 @@ export default function InputWithLabel(props) {
   } = props;
   return (
     <View style={styles.container}>
-      <Text style={{ padding: 8, fontSize: 17, fontWeight: 'bold' }}>
+      <Text
+        style={{
+          padding: 8,
+          fontSize: 17,
+          fontWeight: "bold",
+        }}
+      >
         {label}
       </Text>
       <TextInput
@@ -30,11 +41,11 @@ export default function InputWithLabel(props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginBottom: 15,
-    padding: 15,
-    shadowColor: '#000',
+    alignItems: "center",
+    justifyContent: "center",
+    // marginBottom: 15,
+    // padding: 15,
+    shadowColor: "#000",
     shadowOffset: {
       width: 0,
       height: 2,
@@ -49,6 +60,6 @@ const styles = StyleSheet.create({
     height: 40,
     width: 300,
     paddingHorizontal: 5,
-    backgroundColor: 'white',
-  }
+    backgroundColor: "white",
+  },
 });

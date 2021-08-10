@@ -3,19 +3,21 @@ import { Formik } from "formik";
 import {
   ScrollView,
   StyleSheet,
-  Pressable,
   ImageBackground,
   Text,
+  TouchableHighlight,
 } from "react-native";
 import InputWithLabel from "../components/InputWithLabel";
 import Data from "../data/seed_data";
 
-export default function NewPostForm() {
+export default function NewPostForm({ navigation }) {
+  const [success, setSuccess] = useState(false);
+
   return (
     <ImageBackground
-      source={require('../assets/bricks.png')}
+      source={require("../assets/bricks.png")}
       style={styles.image}
-      >
+    >
       <Formik
         initialValues={{
           image_url: "",
@@ -23,9 +25,27 @@ export default function NewPostForm() {
           location: "",
           caption_body: "",
         }}
-        onSubmit={(values) => {
-          Data.push(values);
-          console.log(Data);
+        onSubmit={async (values) => {
+          try {
+            const response = await fetch(
+              "https://stark-cliffs-29867.herokuapp.com/posts/",
+              {
+                method: "POST",
+                body: JSON.stringify(values),
+                headers: {
+                  "Content-Type": "application/json",
+                },
+              }
+            );
+            if (response.status === 201) {
+              setSuccess(true);
+              setTimeout(() => {
+                navigation.navigate("Home");
+              }, 1000);
+            }
+          } catch (error) {
+            console.log(error);
+          }
         }}
       >
         {({ handleChange, handleSubmit, values }) => (
@@ -33,7 +53,8 @@ export default function NewPostForm() {
             contentContainerStyle={styles.contentContainer}
             style={styles.style}
             accessible={true}
-            accessibilityLabel={'Form to create a new post'}>
+            accessibilityLabel={"Form to create a new post"}
+          >
             <InputWithLabel
               style={styles.container}
               accessible={true}
@@ -66,14 +87,17 @@ export default function NewPostForm() {
               value={values.caption_body}
               onChangeText={handleChange("caption_body")}
             />
-            <Pressable 
-              onPress={handleSubmit} 
-              title="Submit" 
-              accessibilityLabel={'Double tap to submit your post'}
+            <TouchableHighlight
+              onPress={handleSubmit}
+              title="Submit"
+              accessibilityLabel={
+                "Double tap to submit your post"
+              }
               style={styles.button}
+              underlayColor={"#d1d1d1"}
             >
               <Text style={styles.text}>Submit</Text>
-            </Pressable>
+            </TouchableHighlight>
           </ScrollView>
         )}
       </Formik>
@@ -87,36 +111,41 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   container: {
-    height: 'auto',
-    backgroundColor: '#e9e9e9',
+    height: "auto",
+    backgroundColor: "#e9e9e9",
     borderRadius: 20,
     marginTop: 20,
-    shadowOffset: {width: 1, height: 2},
+    shadowOffset: { width: 1, height: 2 },
     shadowOpacity: 0.8,
     shadowRadius: 8,
-    shadowColor: '#000'
+    shadowColor: "#000",
   },
   image: {
     flex: 1,
-    justifyContent: 'flex-start'
+    justifyContent: "flex-start",
   },
   button: {
-    alignItems: 'center',
-    alignContent: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    alignContent: "center",
+    justifyContent: "center",
     borderRadius: 5,
     elevation: 3,
-    backgroundColor: '#e9e9e9',
+    backgroundColor: "#e9e9e9",
     width: 200,
     height: 60,
     marginTop: 35,
+    shadowOffset: { width: 1, height: 2 },
+    shadowOpacity: 0.8,
+    shadowRadius: 8,
+    shadowColor: "#000",
   },
   text: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
     fontSize: 18,
   },
   contentContainer: {
-    justifyContent: 'center',
-    alignItems: 'center',
+    // flex:1,
+    justifyContent: "space-around",
+    alignItems: "center",
   },
 });

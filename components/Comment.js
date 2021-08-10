@@ -13,14 +13,14 @@ const styles = StyleSheet.create({
   container: {
     height: "auto",
     backgroundColor: "#e9e9e9",
-    marginHorizontal:10,
-    borderRadius:5,
+    marginHorizontal: 10,
+    borderRadius: 5,
     padding: 20,
-    marginTop:20,
-    shadowOffset: {width: 1, height: 2},
+    marginTop: 20,
+    shadowOffset: { width: 1, height: 2 },
     shadowOpacity: 0.8,
     shadowRadius: 8,
-    shadowColor: '#000'
+    shadowColor: "#000",
   },
 
   comment: {
