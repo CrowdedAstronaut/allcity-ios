@@ -9,7 +9,7 @@ AllCity is a fully rendered, interactive, full-stack mobile app/social media pla
 
 ## Home Page
 
-<img src= alt="woof home page demo" />
+<img src="./assets/home_page_scroll.gif" alt="woof home page demo" />
 
 - Click the app icon to launch the app
 - Click the spray can icon to create a new post
