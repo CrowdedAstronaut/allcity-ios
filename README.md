@@ -14,6 +14,7 @@ AllCity is a fully rendered, interactive, full-stack mobile app/social media pla
 - Click the app icon to launch the app
 - Click the spray can icon to create a new post
 - Click the king icon to like a post
+- Click the roller icon to comment on a post
 - Click the gallery icon to see a gallery view of all posts
 
 ## Your tech stack (frontend, backend, database)
