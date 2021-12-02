@@ -63,7 +63,7 @@ Our team used Agile workflow for this sprint.
 
 ## Trello
 
-A Trello board was used to create and track tickets. We held daily meetings to discuss accomplishments, challenges, and upcoming tickets. To effectively collaborate remotely while allowing for quick communication if needed, we utilized Discord and Zoom.
+A Trello board was used to create and track tickets. We held daily meetings to discuss accomplishments, challenges, and upcoming tickets. To effectively collaborate remotely while allowing for quick communication if needed, we utilized Slack and Zoom.
 
 ## Version Control
 
@@ -117,6 +117,7 @@ We implemented Git Feature Branch Workflow. All pull requests in Github were rev
         <img alt="Github" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
         <img alt="Trello" src="https://img.shields.io/badge/Trello-%23026AA7.svg?&style=for-the-badge&logo=Trello&logoColor=white"/>
         <img alt="Zoom" src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"/>
+                                                                                                                     <img alt="Slack" src="https://img.shields.io/badge/Slack-%23026AA7.svg?&style=for-the-badge&logo=Slack&logoColor=white"/>
       </td>
     </tr>
     <tr>
