@@ -7,6 +7,14 @@
 
 AllCity is a fully rendered, interactive, full-stack mobile app/social media platform that allows users to learn more about graffiti art, the artists, the location, and the creation date. We prioritized semantic naming conventions, hierarchies and aria-labels to ensure AllCity works well with assistive technologies (ie screen readers).
 
+## Home Page
+
+<img src= alt="woof home page demo" />
+
+- Click the app icon to launch the app
+- Click the spray can icon to create a new post
+- Click the king icon to like a post
+- Click the gallery icon to see a gallery view of all posts
 
 ## Your tech stack (frontend, backend, database)
 
