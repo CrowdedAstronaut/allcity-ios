@@ -7,8 +7,23 @@
 **Steven Semco** - Project Manager<br>
 [GitHub](https://github.com/yetifunk) • [LinkedIn](https://www.linkedin.com/in/stevensemco/)
 
+<img  align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/65795477?v=4" width="44" height="44" alt="@CrowdedAstronaut">
+
+**Ross Phillips** - Project Manager<br>
+[GitHub](https://github.com/CrowdedAstronaut) • [LinkedIn](https://www.linkedin.com/in/johnrossphillips/)
+
+<img align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/83373381?v=4" width="44" height="44" alt="@adinahanna">
+
+**Adina Weinberg** - System Architect<br>
+[GitHub](https://github.com/adinahanna) • [LinkedIn](https://www.linkedin.com/in/adinaweinberg/)
+
+<img align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/77644242?v=4" width="44" height="44" alt="@turekjesse">
+
+**Jesse Turek** - UI Designer<br>
+[GitHub](https://github.com/turekjesse) • [LinkedIn](https://www.linkedin.com/in/turekjesse/)
+
 ## Project Photo
-![App Preview](https://user-images.githubusercontent.com/65795477/128764980-eda26112-5ec2-4118-a11f-6f67eff425f5.png)
+![App Preview](https://raw.githubusercontent.com/CrowdedAstronaut/allcity-ios/main/assets/allCity_hero_image.png)
 
 
 ## Project Description
