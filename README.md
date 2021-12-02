@@ -4,22 +4,22 @@
 <br />
 <img  align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/83781116?v=4" width="44" height="44" alt="@yetifunk">
 
-**Steven Semco** - Project Manager<br>
+**Steven Semco** - Full Stack Web Developer<br>
 [GitHub](https://github.com/yetifunk) • [LinkedIn](https://www.linkedin.com/in/stevensemco/)
 
 <img  align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/65795477?v=4" width="44" height="44" alt="@CrowdedAstronaut">
 
-**Ross Phillips** - Project Manager<br>
+**Ross Phillips** - Full Stack Web Developer<br>
 [GitHub](https://github.com/CrowdedAstronaut) • [LinkedIn](https://www.linkedin.com/in/johnrossphillips/)
 
 <img align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/83373381?v=4" width="44" height="44" alt="@adinahanna">
 
-**Adina Weinberg** - System Architect<br>
+**Adina Weinberg** - Full Stack Web Developer<br>
 [GitHub](https://github.com/adinahanna) • [LinkedIn](https://www.linkedin.com/in/adinaweinberg/)
 
 <img align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/77644242?v=4" width="44" height="44" alt="@turekjesse">
 
-**Jesse Turek** - UI Designer<br>
+**Jesse Turek** - Full Stack Web Developer<br>
 [GitHub](https://github.com/turekjesse) • [LinkedIn](https://www.linkedin.com/in/turekjesse/)
 
 <br />
