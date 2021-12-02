@@ -22,13 +22,28 @@
 **Jesse Turek** - UI Designer<br>
 [GitHub](https://github.com/turekjesse) • [LinkedIn](https://www.linkedin.com/in/turekjesse/)
 
-## Project Photo
+<br />
+
+# Table of Contents
+
+- [About this project](#about)
+- [Workflow](#workflow)
+- [Technologies](#technologies)
+- [Links](#links)
+- [Installation](#install)
+- [APIs](#apis)
+
+<hr />
+<br />
+
+# About the Project <a name="about"></a>
+AllCity is a fully rendered, interactive, full-stack mobile app/social media platform that allows users to learn more about graffiti art, the artists, the location, and the creation date. We prioritized semantic naming conventions, hierarchies and aria-labels to ensure AllCity works well with assistive technologies (ie screen readers).
+
 ![App Preview](https://raw.githubusercontent.com/CrowdedAstronaut/allcity-ios/main/assets/allCity_hero_image.png)
 
-
-## Project Description
-
-AllCity is a fully rendered, interactive, full-stack mobile app/social media platform that allows users to learn more about graffiti art, the artists, the location, and the creation date. We prioritized semantic naming conventions, hierarchies and aria-labels to ensure AllCity works well with assistive technologies (ie screen readers).
+## User Stories
+As a user of All-City, I want to be able to view the top pieces of graffiti art, as well as their locations, their artists, and comments about the pieces.
+As a user of All-City, I want to be able to read comments about graffiti art, and to be able to create my own comments about graffiti art.
 
 ## Home Page
 
@@ -40,14 +55,93 @@ AllCity is a fully rendered, interactive, full-stack mobile app/social media pla
 - Click the roller icon to comment on a post
 - Click the gallery icon to see a gallery view of all posts
 
-## Your tech stack (frontend, backend, database)
+</br>
+
+# Workflow <a name="workflow"></a>
+
+Our team used Agile workflow for this sprint.
+
+## Trello
+
+A Trello board was used to create and track tickets. We held daily meetings to discuss accomplishments, challenges, and upcoming tickets. To effectively collaborate remotely while allowing for quick communication if needed, we utilized Discord and Zoom.
+
+## Version Control
+
+We implemented Git Feature Branch Workflow. All pull requests in Github were reviewed by another team member before being merged into the main branch.
+
+<hr />
+<br />
+
+# Technologies <a name="technologies"></a>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Front End Languages</td>
+      <td>
+        <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+        <img alt="HTML" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
+        <img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>Frameworks & Libraries</td>
+      <td>
+        <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+        <img alt="React Router" src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
+        <img alt="MUI" src="https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white" />
+      </td>
+    </tr>
+      <td>Database & Back End</td>
+      <td>
+        <img alt="ExpressJS" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
+        <img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/>
+        <img alt="MongoDB" src="https://camo.githubusercontent.com/b38bbb1cba49a754ade66ca1ca45541ed07ab31a3b01166157f513b44fb35f70/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d2532333465613934622e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465"/>
+        <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
+      </td>
+    </tr>
+      <td>Design</td>
+      <td>
+        <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+      </td>
+    </tr>
+    <tr>
+      <td>Utilities</td>
+      <td>
+        <img alt="Webpack" src="https://img.shields.io/badge/webpack%20-%2320232a.svg?&style=for-the-badge&logo=webpack&logoColor=%2361DAFB" />
+        <img alt="Babel" src="https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black" />
+        <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=red" />
+        <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      </td>
+    </tr>
+     <tr>
+      <td>Workflow</td>
+      <td>
+        <img alt="Github" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+        <img alt="Trello" src="https://img.shields.io/badge/Trello-%23026AA7.svg?&style=for-the-badge&logo=Trello&logoColor=white"/>
+        <img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
+        <img alt="Zoom" src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Deployment</td>
+      <td>
+        <img alt="MongoDB Atlas" src="https://img.shields.io/badge/MongoDB Atlas-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/>
+        <img alt="AWS" src="https://img.shields.io/badge/AWS%20-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<br />
+
 
 React Native, Expo, Django, PostgreSQL
 
-## User Stories (MVP)
 
-As a user of All-City, I want to be able to view the top pieces of graffiti art, as well as their locations, their artists, and comments about the pieces.
-As a user of All-City, I want to be able to read comments about graffiti art, and to be able to create my own comments about graffiti art.
+
+
 
 ## Learning Experience
 
