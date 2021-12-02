@@ -1,4 +1,12 @@
 # allcity-ios
+# Contributors:
+
+<br />
+<img  align="left" class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/83781116?v=4" width="44" height="44" alt="@yetifunk">
+
+**Steven Semco** - Project Manager<br>
+[GitHub](https://github.com/yetifunk) • [LinkedIn](https://www.linkedin.com/in/stevensemco/)
+
 ## Project Photo
 ![App Preview](https://user-images.githubusercontent.com/65795477/128764980-eda26112-5ec2-4118-a11f-6f67eff425f5.png)
 
