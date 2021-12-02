@@ -74,8 +74,6 @@ We implemented Git Feature Branch Workflow. All pull requests in Github were rev
 
 # Technologies <a name="technologies"></a>
 
-# Technologies <a name="technologies"></a>
-
 <table>
   <tbody>
     <tr>
@@ -96,15 +94,14 @@ We implemented Git Feature Branch Workflow. All pull requests in Github were rev
     </tr>
       <td>Database & Back End</td>
       <td>
-        <img alt="ExpressJS" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
+        <img alt="Django" src="https://img.shields.io/badge/django.js-%23404d59.svg?style=for-the-badge&logo=django&logoColor=%2361DAFB"/>
         <img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/>
-        <img alt="MongoDB" src="https://camo.githubusercontent.com/b38bbb1cba49a754ade66ca1ca45541ed07ab31a3b01166157f513b44fb35f70/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d2532333465613934622e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465"/>
-        <img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
+        <img alt="PostgreSQL" src="https://camo.githubusercontent.com/b38bbb1cba49a754ade66ca1ca45541ed07ab31a3b01166157f513b44fb35f70/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d2532333465613934622e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465"/>
       </td>
     </tr>
       <td>Design</td>
       <td>
-        <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+        <img alt="Sketch" src="https://img.shields.io/badge/Sketch-F24E1E?style=for-the-badge&logo=sketch&logoColor=white" />
       </td>
     </tr>
     <tr>
@@ -134,11 +131,6 @@ We implemented Git Feature Branch Workflow. All pull requests in Github were rev
 <hr />
 <br />
 
-<hr />
-<br />
-
-
-React Native, Expo, Django, PostgreSQL
 
 ## Learning Experience
 
