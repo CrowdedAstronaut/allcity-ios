@@ -123,7 +123,7 @@ We implemented Git Feature Branch Workflow. All pull requests in Github were rev
     <tr>
       <td>Deployment</td>
       <td>
-        <img alt="MongoDB Atlas" src="https://img.shields.io/badge/MongoDB Atlas-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/>
+         <img alt="Apple App Store" src="https://img.shields.io/badge/Apple-%2343853D.svg?style=for-the-badge&logo=apple&logoColor=white"/>
       </td>
     </tr>
   </tbody>
